@@ -1,0 +1,11 @@
+ ----------------------         ----------------
+|        Book          |       |      Shelf     |
+ ----------------------         ----------------
+| - title: str         |       | - category: str|
+| - author: str        |       | - books: list  |
+| - category: str      |       ------------------
+|                      |
+| + __init__(title,    |
+|   author, category)  |
+| + __str__()          |
+ ----------------------
